@@ -1,0 +1,247 @@
+.box1 {
+    border-radius: 100%;
+    border: 3px solid #000000;
+}
+
+.test{
+    padding-top: 10px;
+}
+
+.navBar {
+    background-color: #ffccab;
+}
+.imgLucy {
+    border-radius: 50px;
+    padding: 20px;
+    padding-top: 10px;
+    height: 400px;
+}
+p {
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+.lucySis {
+    position: relative;
+    height:400px;
+    width: 300px;
+    bottom: 350px;
+    border-radius: 300px;
+}
+
+.ovenBaking {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 410px;
+    border-radius: 80px;
+}
+
+.lucyVball{
+    position: relative;
+    height:250px;
+    margin-bottom: 100px;
+    left: 850px;
+    top: 150px;
+}
+
+.secondRow{
+    position:relative;
+    top: 70px;
+}
+
+
+.test {
+    padding-top: 10px;
+}
+
+
+#aboutLucy {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.lucyIndex {
+    position: relative;
+    margin-top: 8px;
+    height: 330px;
+    width: 270px;
+}
+
+.cakeSize {
+    font-size: 14px;
+}
+
+.fira-sans-regular {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .merriweather-sans {
+    font-family: "Merriweather Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .www {
+    height: 300px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 400px;
+  }
+
+  .plsWork{
+    height: 400px;
+    object-fit: cover;
+
+    padding: 100px;
+  }
+
+  .bringbackFonts{
+    height:400px;
+    width:100vw;
+    background: conic-gradient(#6adcdc 0deg 90deg, #f5e4d7 90deg 180deg, #f5e4d7 180deg 270deg, #6adcdc 270deg 360deg);
+  }
+
+  body {
+    background-color: #f5e4d7;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rowColor {
+    background-color: #ff7f50;
+}
+
+.textColor {
+    color: #000000;
+}
+
+.textBig{
+    font-size: xx-large;
+}
+
+.labelBig{
+    font-size: large;
+}
+
+.textCard {
+    font-size: 24px;
+}
+
+#wheelel{
+    position:fixed;
+    width:100px;
+    height:100px;
+    
+}
+.spinnyWheel{
+    position:relative;
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:right;
+    align-items:right;
+  }
+  
+  .container .spinBtn {
+    position:absolute;
+    width:60px;
+    height:60px;
+    background:#00525B;
+    border-radius: 50%;
+    z-index:10;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing:0.5mm;
+    border: 2px solid white;
+    cursor: pointer;
+    user-select: none;
+    top: 150px;
+    left: 145px;
+  }
+  
+  .container .spinBtn::before{
+    content:" ";
+    position:absolute;
+    top:-25px;
+    width:30px;
+    height:45px;
+    background:#00525B;
+    clip-path:polygon(50% 0%, 15% 100%, 85% 100%)
+  }
+  
+  .container .wheel{
+    position:absolute;
+    top:0;
+    left:0;
+    width:350px;
+    height:350px;
+    background:#00525B;
+    border-radius:50%;
+    box-shadow: 0 0 0 5px #faefd2, 
+      0 0 0 8px #00525B,
+      0 0 0 6px #00525B;
+    transition:transform 5s ease-in-out;
+  }
+  
+  .container .wheel .pastry{
+    position:absolute;
+    width:50%;
+    height:50%;
+    background: var(--clr);
+    transform-origin:bottom right;
+    transform: rotate(calc(60deg*var(--i)));
+    clip-path:polygon(0 0,79% 21%, 100% 100%, 21% 79%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    user-select:none;
+    cursor:pointer;
+  }
+  
+  .container .wheel .pastry span{
+    position:relative;
+    transform:rotate(45deg);
+    font-size:29px;
+    font-weight:700;
+    color: #00525B;
+    text-shadow: 3px 2px 2px wheat;
+  }
+
+  .buttonLearn{
+    background-color: #6adcdc
+    ;
+  }
+  .buttoncolor {
+    color: #82FFE8;
+    opacity: 90%;
+  }
+
+  .nav-link:hover{
+    border: 2px solid black;
+    color: #6adcdc;
+  }
+  .active1{
+    text-decoration: underline;
+  }
